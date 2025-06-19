@@ -41,7 +41,8 @@ To do:
 document compared to embedded.
 5. Create indexes for querying the students
 6. Share the screenshot of the result in the readme file.
+![students(24mcaa34)](https://github.com/user-attachments/assets/6b179bef-ed3b-4794-9402-719b2264ba2a)
+![enrollments(24mcaa34)](https://github.com/user-attachments/assets/31e21267-b523-421f-9c6e-a91d158ceb42)
+![courses(24mcaa34)](https://github.com/user-attachments/assets/8568160a-873e-4893-b2e9-0b1a58e9f304)
 
-![students(24mcaa34)](https://github.com/user-attachments/assets/07afbb03-bc85-4b8d-bc28-23d20e0c1b74)
-![courses(24mcaa34)](https://github.com/user-attachments/assets/cb23195e-9c45-4b68-9509-4c81332e219d)
-![enrollments(24mcaa34)](https://github.com/user-attachments/assets/cf7e48f6-d4f9-4fa9-a580-be7b93b05631)
+
