@@ -15,4 +15,33 @@ overdrafts, negative transactions, and non-existent accounts.
 
 
 
+Day-3
 
+
+**Task**
+Create a Java application that manages student enrollments in courses using MongoDB. Use
+embedded documents for some data and referenced documents for others, to understand their
+structural differences. Upload the code to GitHub with the name Day3-Task
+** Requirements
+MongoDB Collections
+students — stores student details
+courses — stores course details
+enrollments — stores enrollment records
+**Document Structure
+In enrollments:
+One document should embed both
+student and course data.
+Another should reference them using
+ObjectIds.
+To do:
+1. Insert sample students and courses.
+2. Add two types of enrollments (embedded and referenced).
+3. Query and print both types with full details.
+4. Update a student's name and mention the difference between updating a referenced
+document compared to embedded.
+5. Create indexes for querying the students
+6. Share the screenshot of the result in the readme file.
+
+![students(24mcaa34)](https://github.com/user-attachments/assets/07afbb03-bc85-4b8d-bc28-23d20e0c1b74)
+![courses(24mcaa34)](https://github.com/user-attachments/assets/cb23195e-9c45-4b68-9509-4c81332e219d)
+![enrollments(24mcaa34)](https://github.com/user-attachments/assets/cf7e48f6-d4f9-4fa9-a580-be7b93b05631)
