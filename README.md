@@ -6,6 +6,7 @@ This repository contains daily tasks and projects completed during the Summer In
 **📅 Day 2 - Java Fundamentals & OOP**
 
 ✅ Tasks (Evening)
+
 1️⃣ Create Maven Project
 Project Name: Day2<regno>
 
