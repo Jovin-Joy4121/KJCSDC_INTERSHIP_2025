@@ -1,4 +1,6 @@
 **🌞 Summer Internship - KJC SDC 2025**
+
+
 This repository contains daily tasks and projects completed during the Summer Internship program at KJC SDC in 2025. Each day focused on developing real-world applications using Java and modern backend tools like MongoDB.
 
 **📅 Day 2 - Java Fundamentals & OOP**
