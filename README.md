@@ -4,21 +4,25 @@
 This repository contains daily tasks and projects completed during the Summer Internship program at KJC SDC in 2025. Each day focused on developing real-world applications using Java and modern backend tools like MongoDB.
 
 **📅 Day 2 - Java Fundamentals & OOP**
+
 ✅ Tasks (Evening)
 1️⃣ Create Maven Project
 Project Name: Day2<regno>
 
 **Dependencies Added:**
+
 Apache Log4j SLF4J Binding
 Mongodb Sync
 Apache Commons CLI
 
 **2️⃣ Library Management System (OOP - Inheritance)**
+
 Designed a Java application using inheritance:
 Book (Base class)
 FictionBook, NonFictionBook (Subclasses)
 
 **3️⃣ Banking System Simulation**
+
 Created a basic banking system supporting:
 Account creation
 Deposits and withdrawals
@@ -34,6 +38,7 @@ Invalid/non-existent accounts
 **📅 Day 3 - MongoDB Integration**
 
 **✅ Task: Student Enrollment System using MongoDB**
+
 Java Application to:
 
 Manage students, courses, and enrollments.
@@ -41,17 +46,20 @@ Demonstrate use of embedded vs referenced documents.
 📋 Requirements:
 
 **✅ MongoDB Collections:**
+
 students — stores student details
 courses — stores course details
 enrollments — stores enrollment records
 
 
 **✅ Document Structure:**
+
 One enrollment embeds student and course details.
 Another enrollment references student and course documents via ObjectId.
 
 
 **🚀 To-Do:**
+
 Insert sample student and course data.
 Create enrollments:
 One with embedded documents.
@@ -62,6 +70,7 @@ Observation: Updating embedded vs referenced documents shows how references rema
 
 
 **Create indexes on the students collection for efficient querying.**
+
 Include screenshots of:
 Students collection
 Courses collection
