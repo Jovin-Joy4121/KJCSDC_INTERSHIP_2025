@@ -1,46 +1,109 @@
-**Day 2**
+🌞 Summer Internship - KJC SDC 2025
+This repository contains daily tasks and projects completed during the Summer Internship program at KJC SDC in 2025. Each day focused on developing real-world applications using Java and modern backend tools like MongoDB.
 
-**Tasks: (Evening)**
-1. Create a maven project titled Day2<regno>. Do the following tasks in that project.
-a) Add the following dependencies:
-i) Apache Log4j SLF4J Binding
-ii) Apache Commons CLI
-b) Design a Java program that models a library management system. Your
-program should include a base class named Book and subclasses for specific
-types of books, such as FictionBook and NonFictionBook. (Inheritance)
-c) Design a Java program that simulates a basic banking system. Users should be
-able to create accounts, deposit money, withdraw money, and check balances.
-Implement exception handling to manage invalid operations, such as
-overdrafts, negative transactions, and non-existent accounts.
+📅 Day 2 - Java Fundamentals & OOP
+✅ Tasks (Evening)
+1️⃣ Create Maven Project
+Project Name: Day2<regno>
+
+Dependencies Added:
+
+Apache Log4j SLF4J Binding
+Mongodb Sync
+Apache Commons CLI
+
+2️⃣ Library Management System (OOP - Inheritance)
+Designed a Java application using inheritance:
+
+Book (Base class)
+
+FictionBook, NonFictionBook (Subclasses)
+
+3️⃣ Banking System Simulation
+Created a basic banking system supporting:
+
+Account creation
+
+Deposits and withdrawals
+
+Balance inquiry
+
+Exception Handling Implemented:
+
+Overdrafts
+
+Negative transactions
+
+Invalid/non-existent accounts
+
+📁 Folder Structure:
+
+css
+Copy
+Edit
+Day2<regno>/
+├── pom.xml
+├── src/
+│   └── main/java/
+│       ├── library/
+│       │   ├── Book.java
+│       │   ├── FictionBook.java
+│       │   └── NonFictionBook.java
+│       └── banking/
+│           ├── Account.java
+│           ├── BankSystem.java
+│           └── exceptions/
+│               ├── InsufficientFundsException.java
+│               └── InvalidTransactionException.java
 
 
+📅 Day 3 - MongoDB Integration
+✅ Task: Student Enrollment System using MongoDB
+Java Application to:
 
-Day-3
+Manage students, courses, and enrollments.
 
+Demonstrate use of embedded vs referenced documents.
 
-**Task**
-Create a Java application that manages student enrollments in courses using MongoDB. Use
-embedded documents for some data and referenced documents for others, to understand their
-structural differences. Upload the code to GitHub with the name Day3-Task
-** Requirements
-MongoDB Collections
+📋 Requirements:
+✅ MongoDB Collections:
 students — stores student details
+
 courses — stores course details
+
 enrollments — stores enrollment records
-**Document Structure
-In enrollments:
-One document should embed both
-student and course data.
-Another should reference them using
-ObjectIds.
-To do:
-1. Insert sample students and courses.
-2. Add two types of enrollments (embedded and referenced).
-3. Query and print both types with full details.
-4. Update a student's name and mention the difference between updating a referenced
-document compared to embedded.
-5. Create indexes for querying the students
-6. Share the screenshot of the result in the readme file.
+
+✅ Document Structure:
+One enrollment embeds student and course details.
+
+Another enrollment references student and course documents via ObjectId.
+
+🚀 To-Do:
+Insert sample student and course data.
+
+Create enrollments:
+
+One with embedded documents.
+
+One with referenced ObjectIds.
+
+Query and print both types with full details.
+
+Update a student's name:
+
+Observation: Updating embedded vs referenced documents shows how references remain consistent across documents, while embedded data must be updated in every instance.
+
+Create indexes on the students collection for efficient querying.
+
+Include screenshots of:
+
+Students collection
+
+Courses collection
+
+Enrollments collection
+
+📸 Screenshots:
 ![students(24mcaa34)](https://github.com/user-attachments/assets/6b179bef-ed3b-4794-9402-719b2264ba2a)
 ![enrollments(24mcaa34)](https://github.com/user-attachments/assets/31e21267-b523-421f-9c6e-a91d158ceb42)
 ![courses(24mcaa34)](https://github.com/user-attachments/assets/8568160a-873e-4893-b2e9-0b1a58e9f304)
