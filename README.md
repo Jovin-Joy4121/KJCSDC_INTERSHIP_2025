@@ -1,3 +1,5 @@
+![sdcsi](https://github.com/user-attachments/assets/b0f238c1-4187-4e67-ba2d-9a52a8884c1f)
+
 **🌞 Summer Internship - KJC SDC 2025**
 
 
