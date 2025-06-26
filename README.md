@@ -117,12 +117,12 @@ Enrollments collection
 ![courses(24mcaa34)](https://github.com/user-attachments/assets/8568160a-873e-4893-b2e9-0b1a58e9f304)
 
 
-TASK DAY-5
+**TASK DAY-5**
 
-Objective:
+**Objective:**
 
-Build an Employee Management Portal using Java and MongoDB that provides 
-functionality to:
+**Build an Employee Management Portal using Java and MongoDB that provides 
+functionality to:**
 
 ● Add employee records 
 
@@ -132,22 +132,21 @@ functionality to:
 
 ● Perform aggregation-based queries (e.g., count per department) 
 
-Core Tasks 
+**Core Tasks** 
 
-1. Add Employee
-2. 
+**1. Add Employee** 
 ● Insert a new document into the employees collection.
 
 ● Validate that the employee’s email is unique before insertion. 
 
-4. Update Employee
+**2. Update Employee**
    
 ● Update specific fields of an employee document (e.g., skills, department). 
 
 ● Ensure that only the specified fields are updated and the rest of the document 
 remains unchanged. 
 
-6. Delete Employee
+**3. Delete Employee**
    
 ● Delete an employee document using either: 
 
@@ -155,7 +154,7 @@ remains unchanged.
 
 ● Employee ID (_id field in MongoDB) 
 
-8. Search Employees
+**4. Search Employees**
    
 Provide filtering and searching capabilities based on: 
 
@@ -168,8 +167,7 @@ Provide filtering and searching capabilities based on:
 ● By Joining Date Range: Filter employees who joined between specified dates 
 (e.g., all who joined in the year 2023). 
 
-10. List with Pagination
-11. 
+**5. List with Pagination**
 ● Paginate the results to return a fixed number of employees per page (e.g., 5 
 employees per page).
 
@@ -179,10 +177,28 @@ employees per page).
 
 ○ Joining Date 
 
-13. Department Statistics
+**6. Department Statistics**
     
 ● Perform an aggregation query to group employees by department. 
 
 ● Count the number of employees in each department. 
 
 ● Return results like: 
+
+
+
+**Task Day 9**
+
+**1. Build an Order Tracking Feature for an E-commerce System**
+   
+**a. Functionalities:** 
+
+**i. Place new orders** 
+
+**ii. Update order status**
+
+**iii. Retrieve order history by user**
+
+**iv. Aggregate total sales for a given product or time period**
+
+Perform the above task using the project structure shared earlier. 
